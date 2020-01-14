@@ -1,0 +1,126 @@
+[1574231185.408][INFO]: Starting ChromeDriver 78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877})
+[1574231185.408][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1574231186.081][INFO]: [1965b0931e3a747d46d101885d5f12cb] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "--start-maximized", "disable-infobars" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "--start-maximized", "disable-infobars" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1574231186.084][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1574231186.088][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1574231186.112][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials --ignore-certificate-errors --load-extension="C:\Users\310204~1\AppData\Local\Temp\scoped_dir20660_1117676341\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\310204~1\AppData\Local\Temp\scoped_dir20660_575624460" data:,
+[1574231190.341][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1574231191.400][INFO]: [1965b0931e3a747d46d101885d5f12cb] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "78.0.3904.108",
+      "chrome": {
+         "chromedriverVersion": "78.0.3904.105 (60e2d8774a8151efa6a00b1f358371b1e0e07ee2-refs/branch-heads/3904@{#877})",
+         "userDataDir": "C:\\Users\\310204~1\\AppData\\Local\\Temp\\scoped_dir20660_575624460"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57387"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows nt",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "1965b0931e3a747d46d101885d5f12cb"
+}
+[1574231191.480][INFO]: [1965b0931e3a747d46d101885d5f12cb] COMMAND Navigate {
+   "url": "https://toolsqa.com"
+}
+[1574231191.480][INFO]: Waiting for pending navigations...
+[1574231191.485][INFO]: Done waiting for pending navigations. Status: ok
+[1574231193.048][INFO]: Waiting for pending navigations...
+[1574231200.212][INFO]: Done waiting for pending navigations. Status: ok
+[1574231200.212][INFO]: [1965b0931e3a747d46d101885d5f12cb] RESPONSE Navigate
+[1574231200.217][INFO]: [1965b0931e3a747d46d101885d5f12cb] COMMAND Quit {
+
+}
+[1574231200.318][INFO]: [1965b0931e3a747d46d101885d5f12cb] RESPONSE Quit
